@@ -33,8 +33,8 @@ footer, header, hgroup, menu, nav, section {
 
 .circular-img {
 	border-radius: 0%;
-	width: 500px; /* adjust to your desired size */
-	height: 700px; /* adjust to your desired size */
+	width: 300px; /* adjust to your desired size */
+	height: 300px; /* adjust to your desired size */
 	object-fit: contain;
   }
   
