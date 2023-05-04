@@ -29,6 +29,16 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+.circular-img {
+	border-radius: 0%;
+	width: 500px; /* adjust to your desired size */
+	height: 700px; /* adjust to your desired size */
+	object-fit: contain;
+  }
+  
+
 body {
 	line-height: 1;
 }
@@ -3189,7 +3199,7 @@ input, select, textarea {
 		}
 
 	.pagination a, .pagination span {
-		border-color: #eeeeee;
+		border-color: #eeeeee; /* checked */
 	}
 
 	.pagination a {
@@ -3208,7 +3218,7 @@ input, select, textarea {
 			}
 
 		.pagination a.active {
-			background-color: #eeeeee;
+			background-color: #eeeeee; /* checked */
 		}
 
 	.pagination span {
